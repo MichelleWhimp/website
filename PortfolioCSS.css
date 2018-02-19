@@ -1,0 +1,627 @@
+
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/* Font Styling */
+
+
+
+h1 {
+	font-family: Helvetica Neue, Arial, sans-serif;
+	font-weight: normal;
+	color:#000;
+	font-size: 13px;
+	line-height: 30px;
+}
+
+h2 {
+	font-family: Helvetica Neue, Arial, sans-serif;
+	font-weight: normal;
+	color:#000;
+	font-size: 14px;
+	line-height: 40px;
+}
+
+
+h3 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	color:#000;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+h3 a {
+      color:#000;
+      -webkit-transition:opacity 0.8s linear;
+      -webkit-transition:all 0.5s ease-out;
+      -moz-transition:all 0.5s ease-out;
+      transition:all 0.5s ease-out;
+}
+
+h3 a:hover {
+     color:#91e6ff;
+     -webkit-transition:opacity0.7s linear;
+     -webkit-transition:all 0.3s ease-out;
+     -moz-transition:all 0.3s ease-out;
+     transition:all 0.3s ease-out;
+}
+
+
+
+h4 {
+	font-family: Helvetica Neue, Arial, sans-serif;
+	font-weight: normal;
+	color:#000;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+
+
+
+
+p {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	color:#000;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+p a {
+    color:#eaecec;
+    -webkit-transition:opacity 0.8s linear;
+    -webkit-transition:all 0.5s ease-out;
+    -moz-transition:all 0.5s ease-out;
+    transition:all 0.5s ease-out;
+}
+
+p a:hover {
+    color:#91e6ff;
+    -webkit-transition:opacity0.7s linear;
+    -webkit-transition:all 0.3s ease-out;
+    -moz-transition:all 0.3s ease-out;
+    transition:all 0.3s ease-out;
+}
+
+
+/* Body and Base Container CSS */
+
+body{
+	margin: 0px;	
+	padding: 0px;
+	min-width: 1000px;
+        background-color:#f9f9f9;
+        background-image:url(Content/bg.png);
+        background-repeat: repeat-y;
+        background-attachment:fixed;
+        background-position: top; 
+}
+
+
+
+#container {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+        margin-top:0px;
+}
+
+
+#display{
+        clear:both;
+	margin-left: auto;
+	margin-right: auto;
+        margin-top:25px;
+	width: 940px;
+        height:380px;
+        background-image:url(Content/header-animate.gif);
+        background-repeat: no-repeat;
+        z-index:1;
+}
+
+#content {
+	clear:both;
+	margin-left: auto;
+	margin-right: auto;
+	width: 940px;
+        height:auto;
+        z-index:1;
+        background-color:#ffffff;
+}
+
+
+
+
+
+/* Nav Bar CSS */
+
+#navbar{
+        clear:both;
+        width:940px;
+        height:50px;
+        text-align: right;
+        top:0;
+        padding-top:100px;
+        padding-left:30px;
+        padding-right:30px;
+        z-index:1;
+        background-image:url(Content/logo.png);
+        background-repeat: no-repeat;
+        background-position: left bottom; 
+
+}
+
+
+#navbar a {
+    text-decoration:none;
+    color:#000;
+    display:inline-block;
+    text-align: right;
+    text-transform:uppercase;
+    -webkit-transition:opacity 0.8s linear;
+    -webkit-transition:all 0.5s ease-out;
+    -moz-transition:all 0.5s ease-out;
+    transition:all 0.5s ease-out;
+}
+
+#navbar a:hover {
+    color:#91e6ff;
+    -webkit-transition:opacity0.7s linear;
+    -webkit-transition:all 0.3s ease-out;
+    -moz-transition:all 0.3s ease-out;
+    transition:all 0.3s ease-out;
+}
+
+
+
+
+
+/* Sub Page Header CSS */
+
+#subheader1{
+        float: left;
+	width: 300px;
+        height:200px;
+}
+
+#subheader2{
+        float: left;
+	width: 620px;
+}
+
+#subdisplay{
+        clear:both;
+	margin-left: auto;
+	margin-right: auto;
+        margin-bottom:45px;
+        background-image:url(Content/header4.jpg);
+	width: 940px;
+        height:200px;
+        z-index:1;
+}
+
+#break{
+        clear: both;
+        height:20px;
+        width: 640px;
+}
+
+
+
+
+
+
+/* Image Block Divs */
+
+
+
+#heading1{
+        float: left;
+	width: 940px;
+        height:45px;
+        background-image:url(Content/Corner.png);
+        background-repeat: no-repeat;
+        background-position:right bottom;
+        border-bottom-style:solid;
+        border-top-style:none;
+        border-right-style:none;
+        border-left-style:none;
+        border-width:1px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        border-color:#d0dde6;
+}
+
+#heading2{
+        float: left;
+	width: 940px;
+        height:45px;
+        background-image:url(Content/Corner.png);
+        background-repeat: no-repeat;
+        background-position:right bottom;
+        border-bottom-style:solid;
+        border-top-style:none;
+        border-right-style:none;
+        border-left-style:none;
+        border-width:1px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        border-color:#d0dde6;
+}
+
+#heading3{
+        float: left;
+	width: 940px;
+        height:45px;
+}
+
+
+#fourblock1{
+        float: left;
+	width: 220px;
+        height:220px;
+        margin-right:20px;
+}
+
+#fourblock2{
+        float: left;
+	width: 220px;
+        height:220px;
+        margin-right:20px;
+}
+
+#fourblock3{
+        float: left;
+	width: 220px;
+        height:220px;
+        margin-right:20px;
+}
+
+#fourblock4{
+        float: left;
+	width: 220px;
+        height:220px;
+}
+
+#threeblock1{
+        float: left;
+	width: 620px;
+        height:220px;
+        border-top:thin;
+        margin-bottom:20px;
+}
+
+#threeblock2{
+        float: left;
+	width: 300px;
+        height:188px;
+        margin-top:32px;
+        margin-bottom:20px;
+}
+
+
+#threeblock2 a {
+    text-decoration:none;
+}
+
+#threeblock3{
+        float: left;
+	width: 300px;
+        height:220px;
+        margin-right:20px;
+        margin-bottom:20px;
+}
+
+#threeblock4{
+        float: left;
+	width: 300px;
+        height:220px;
+        margin-bottom:20px;
+}
+
+#threeblock5{
+        float: left;
+	width: 620px;
+        height:220px;
+        border-top:thin;
+        margin-bottom:20px;
+        margin-right:20px;
+}
+
+
+#fiveblock1{
+        float: left;
+	width: 172px;
+        height:110px;
+        margin-right:20px;
+}
+
+
+#fiveblock2{
+        float: left;
+	width: 172px;
+        height:110px;
+}
+
+
+/* Large Image Captions */
+
+.largeboxgrid{ 
+        width: 620px; 
+        height: 220px;
+        float:left;  
+        overflow: hidden; 
+        position: relative;
+
+}
+
+.largeboxgrid img{ 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        border: 0;
+}
+				
+				
+.largeboxcaption{ 
+        float: left; 
+        position: absolute;
+        background-image:url(Content/tile2.jpg);
+        background-repeat: repeat;
+        background-attachment:fixed;
+        height: 75px; 
+        width: 100%; 
+        opacity: .9; 
+        cursor: hand; 
+        cursor: pointer; 
+        /* For IE 5-7 */
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+        /* For IE 8 */
+        -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+.largecaption .largeboxcaption {
+        bottom:0;
+        margin-bottom:-75px;
+}
+
+.largeboxgrid a {
+        font-family: Helvetica Neue, Arial, sans-serif;
+        font-weight: normal;
+        text-decoration:none;
+        color:#91e6ff;
+        display:inline-block;
+        letter-spacing:3px;
+	line-height: 14px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-transform:uppercase;
+        -webkit-transition:opacity 0.8s linear;
+        -webkit-transition:all 0.5s ease-out;
+        -moz-transition:all 0.5s ease-out;
+        transition:all 0.5s ease-out;
+}
+
+.largeboxcaption a:hover {
+        color:#91e6ff;
+        -webkit-transition:opacity0.7s linear;
+        -webkit-transition:all 0.3s ease-out;
+        -moz-transition:all 0.3s ease-out;
+        transition:all 0.3s ease-out;
+}
+
+
+.largeboxgrid p{ 
+        font-family: Helvetica Neue, Arial, sans-serif;
+	font-weight: normal;
+	color:#f9f9f9;
+	font-size: 11px;
+	line-height: 16px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-transform:uppercase;
+}
+
+
+/* Normal Image Captions */
+
+.boxgrid{ 
+        width: 300px; 
+        height: 220px;
+        float:left; 
+        background:#161613; 
+        overflow: hidden; 
+        position: relative;
+
+}
+
+.boxgrid img{ 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        border: 0; 
+}
+				
+				
+.boxcaption{ 
+        float: left; 
+        position: absolute;
+        background-image:url(Content/tile2.jpg);
+        background-repeat: repeat;
+        background-attachment:fixed;
+        height: 75px; 
+        width: 100%;
+        opacity: .9; 
+        cursor: hand; 
+        cursor: pointer; 
+        /* For IE 5-7 */
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+        /* For IE 8 */
+        -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+.caption .boxcaption {
+        bottom:0;
+        margin-bottom:-75px;
+}
+
+.boxgrid a {
+        font-family: Helvetica Neue, Arial, sans-serif;
+        font-weight: normal;
+        text-decoration:none;
+        color:#91e6ff;
+        display:inline-block;
+        letter-spacing:3px;
+	line-height: 14px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-transform:uppercase;
+        -webkit-transition:opacity 0.8s linear;
+        -webkit-transition:all 0.5s ease-out;
+        -moz-transition:all 0.5s ease-out;
+        transition:all 0.5s ease-out;
+}
+
+.boxcaption a:hover {
+        color:#91e6ff;
+        -webkit-transition:opacity0.7s linear;
+        -webkit-transition:all 0.3s ease-out;
+        -moz-transition:all 0.3s ease-out;
+        transition:all 0.3s ease-out;
+}
+
+
+.boxgrid p{ 
+        font-family: Helvetica Neue, Arial, sans-serif;
+	font-weight: normal;
+	color:#f9f9f9;
+	font-size: 11px;
+	line-height: 16px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-transform:uppercase;
+}
+
+/* Small Image Captions */
+
+.smallboxgrid{ 
+        width: 172px; 
+        height: 110px;
+        float:left; 
+        background:#161613; 
+        overflow: hidden; 
+        position: relative; 
+
+}
+
+.smallboxgrid img{ 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        border: 0; 
+}
+				
+				
+.smallboxcaption{ 
+        float: left; 
+        position: absolute;
+        background-image:url(Content/tile2.jpg);
+        background-repeat: repeat;
+        background-attachment:fixed;
+        height: 110px; 
+        width: 100%; 
+        opacity: .9; 
+        cursor: hand; 
+        cursor: pointer; 
+        /* For IE 5-7 */
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+        /* For IE 8 */
+        -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+.captionfull .smallboxcaption {  
+        bottom:0;
+        margin-bottom:-110px; 
+}  
+
+.smallboxgrid a {
+        font-family: Georgia, Arial, sans-serif;
+        font-weight: normal;
+        text-decoration:none;
+        color:#91e6ff;
+        display:inline-block;
+        letter-spacing:3px;
+	line-height: 14px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-transform:uppercase;
+        -webkit-transition:opacity 0.8s linear;
+        -webkit-transition:all 0.5s ease-out;
+        -moz-transition:all 0.5s ease-out;
+        transition:all 0.5s ease-out;
+}
+
+.smallboxcaption a:hover {
+        color:#91e6ff;
+        -webkit-transition:opacity0.7s linear;
+        -webkit-transition:all 0.3s ease-out;
+        -moz-transition:all 0.3s ease-out;
+        transition:all 0.3s ease-out;
+}
+
+
+.smallboxgrid p{ 
+	font-weight: normal;
+	color:#f9f9f9;
+	font-size: 11px;
+	line-height: 16px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-transform:uppercase;
+}
+
+
+
+
+/* Footer Divs */
+
+#header{
+        width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+        margin-top:0px;
+        z-index:1;
+}
+
+#footer{
+        width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+        margin-bottom:20px;
+	padding: 0px;
+        height:360px;
+        z-index:1;
+}
+
+
+
+/* Image Fade In */
+
+
+#image {
+height:auto;
+width:auto;
+}
+
+#image img {opacity:0;
+-moz-transition: opacity 2s; /* Firefox 4 */
+-webkit-transition: opacity 2s; /* Safari and Chrome */
+-o-transition: opacity 2s;
+transition: opacity 2s;
+}​
