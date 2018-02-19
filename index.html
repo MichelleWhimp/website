@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta name="author" content="Michelle Kirsty Whimp"/>
+<title>Michelle Whimp - Graphic Designer</title>
+<link href="PortfolioCSS.css" rel="stylesheet" type="text/css" />
+<link rel="icon" type="image/png" href="Content/favicon.png" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38882888-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.1.js"></script>
+<script type="text/javascript">
+
+function load(url)
+{
+window.open(url,'_self','scrollbar=yes') ;
+}
+
+
+$(document).ready(function(){
+
+      //Caption Sliding (Partially Hidden to Visible)
+      $('.boxgrid.caption').hover(function(){
+      $(".cover", this).stop().animate({bottom:'75px'},{queue:false,duration:250});
+      }, function() {
+      $(".cover", this).stop().animate({bottom:'0px'},{queue:false,duration:250});
+      });
+
+      //LargeCaption Sliding (Partially Hidden to Visible)
+      $('.largeboxgrid.largecaption').hover(function(){
+      $(".largecover", this).stop().animate({bottom:'75px'},{queue:false,duration:250});
+      }, function() {
+      $(".largecover", this).stop().animate({bottom:'0px'},{queue:false,duration:250});
+      });
+
+      //Full Caption Sliding (Hidden to Visible)  
+      $('.smallboxgrid.captionfull').hover(function(){  
+      $(".smallcover", this).stop().animate({bottom:'110px'},{queue:false,duration:250});  
+      }, function() {  
+      $(".smallcover", this).stop().animate({bottom:'0px'},{queue:false,duration:250});  
+      });
+
+      $('.farmlander').click(function(){load('farmlander.html');});
+      $('.gulf').click(function(){load('gulf.html');});
+      $('.optimism').click(function(){load('optimism.html');});
+      $('.challenge').click(function(){load('challenge.html');});
+      $('.armageddon').click(function(){load('armageddon.html');});
+      $('.trimble').click(function(){load('trimble.html');});
+      $('.optidirect').click(function(){load('optidirect.html');});
+
+      $('#fiveblock1').click(function(){load('yeahtoast.html');});
+      $('#fiveblock2').click(function(){load('weatherreport.html');});
+      $('#fiveblock3').click(function(){load('tiltshift.html');});
+      $('#fiveblock4').click(function(){load('blackandwhite.html');});
+      $('#fiveblock5').click(function(){load('designprinciples.html');});
+
+});  
+
+
+</script>
+
+</head>
+
+<body>
+
+
+      <div id="header">
+
+         <div id="navbar">
+         <h1><a href="index.html"> Home </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="portfolio.html"> Portfolio </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="projects.html"> Projects </a></h1>
+         </div>
+
+         <div id="display">
+         <img src="Content/header-animate2.gif"/>
+         </div>
+
+
+      </div>
+
+
+<div id="container"> 
+     
+
+      <div id="content">
+
+
+          <div id="heading2">
+          <h2>Recent Portfolio Additions</h2>
+          </div>
+
+
+          <div id="threeblock5" class="farmlander">
+             <div class="largeboxgrid largecaption">
+       <a href="farmlander.html"> <img src="Content/Portfolio Screenshots/Farmlander/Farmlanderthumb1.png" width="620" height="220"/></a>
+          <div class="largecover largeboxcaption">
+          <h2><a href="farmlander.html">Farmlander Magazine</a></h2>
+          <p>Full page adverts in the monthly Farmlander magazine.</p>
+    </div>
+       </div>
+          </div>
+
+
+           <div id="threeblock4" class="armageddon">
+             <div class="boxgrid caption">
+       <a href="armageddon.html"> <img src="Content/Portfolio Screenshots/Armageddon/ArmageddonThumb1.png" width="300" height="220"/></a>
+          <div class="cover boxcaption">
+          <h2><a href="Armageddon.html">Armageddon</a></h2>
+          <p>Concept poster for Auckland Expo 2k15.</p>
+    </div>
+       </div>
+          </div>
+
+
+
+
+         <div id="threeblock3" class="optimism">
+             <div class="boxgrid caption">
+       <a href="optimism.html"> <img src="Content/Portfolio Screenshots/Optimism/thumb1.png" width="300" height="220"/></a>
+          <div class="cover boxcaption">
+          <h2><a href="optimism.html">Optimism Partners</a></h2>
+          <p>Online Training Modules and marketing collateral.</p>
+    </div>
+       </div>
+          </div>
+
+          <div id="threeblock3" class="tiltshift">
+             <div class="boxgrid caption">
+       <a href="tiltshift.html"> <img src="Content/Portfolio Screenshots/Tilt Shift/TiltShiftThumb2.jpg" width="300" height="220"/></a>
+          <div class="cover boxcaption">
+          <h2><a href="tiltshift.html">Tilt Shift</a></h2>
+          <p>A fun photomanipulation experiment.</p>
+    </div>
+       </div>
+          </div>
+
+
+
+          <div id="threeblock4" class="gulf">
+             <div class="boxgrid caption">
+       <a href="gulf.html"> <img src="Content/Portfolio Screenshots/Gulf/Gulfthumb1.png" width="300" height="220"/></a>
+          <div class="cover boxcaption">
+          <h2><a href="Gulf.html">Gulf Oil Limited</a></h2>
+          <p>2018 Gulf Oil Highlanders campaign.</p>
+    </div>
+       </div>
+          </div>
+
+
+
+         <div id="threeblock3" class="trimble">
+             <div class="boxgrid caption">
+       <a href="trimble.html"> <img src="Content/Portfolio Screenshots/Trimble/TrimbleThumb1.jpg" width="300" height="220"/></a>
+          <div class="cover boxcaption">
+          <h2><a href="trimble.html">Trimble</a></h2>
+          <p>Product Brochure Redesign.</p>
+    </div>
+       </div>
+          </div>
+
+
+          <div id="threeblock1" class="optidirect">
+             <div class="largeboxgrid largecaption">
+       <a href="optidirect.html"> <img src="Content/Portfolio Screenshots/Optidirect/thumb1large.png" width="620" height="220"/></a>
+          <div class="largecover largeboxcaption">
+          <h2><a href="optidirect.html">Optidirect</a></h2>
+          <p>Prepackaged interactive training modules for web and iPad.</p>
+    </div>
+       </div>
+          </div>
+
+
+</div>
+
+      <div id="footer">
+
+      <div id="content">
+
+        <div id="heading1">
+          <h4>Contact</h4>
+          </div>
+
+          <div id="threeblock3">
+          <img src="Content/Bio Image.jpg" width="300" height="220" />
+          </div>
+
+          <div id="threeblock3">
+          <h3>Hi there, I'm Michelle.</h3>
+           <h3>I'm a graphic designer, photographer, writer, and a hobby artist. &nbsp;Currently, I create advertising and campaign material for a wide variety of media channels for Farmlands Co-operative, in Christchurch.</h3>
+
+          <h3>In my spare time, I enjoy writing short stories, field archery and playing computer games.</h3>
+          </div>
+
+          <div id="threeblock2">
+          <h3>If you wish to get in touch with me for any reason, check out my details below. Or, you can flick me a message on one of my various online networks.</h3>
+          <h3>Mobile: 021 777 224<br>Email: <a href="mailto:michellewhimp@gmail.com">michellewhimp@gmail.com</a></h3>
+
+          <p><a href="https://twitter.com/SanityChelle"> <img src="Content/twitter.png" width="32" height="32" /></a>
+            <a href="https://www.facebook.com/michelle.whimp"> <img src="Content/facebook.png" width="32" height="32" /></a>
+          </p>
+          </div>
+
+<div id="heading2">
+          <h2>Side Projects & Experiments</h2>
+          </div>
+
+          <div id="fiveblock1">
+             <div class="smallboxgrid captionfull">
+	     <a href="yeahtoast.html"> <img src="Content/Portfolio Screenshots/Yeah Toast/YeahToastThumb2.jpg"/></a>
+	        <div class="smallcover smallboxcaption">
+	        <h2><a href="yeahtoast.html">Yeah Toast</a></h2>
+	        <p>A side-scroller platform game.</p>
+		</div>
+	     </div>
+          </div>
+
+                    <div id="fiveblock1">
+             <div class="smallboxgrid captionfull">
+       <a href="tiltshift.html"> <img src="Content/Portfolio Screenshots/Tilt Shift/TiltShiftThumb1.jpg"/></a>
+          <div class="smallcover smallboxcaption">
+          <h2><a href="tiltshift.html">Tilt Shift</a></h2>
+          <p>Photographic Experiment.</p>
+    </div>
+       </div>
+          </div>
+
+          <div id="fiveblock1">
+             <div class="smallboxgrid captionfull">
+	     <a href="weatherreport.html"> <img src="Content/Portfolio Screenshots/Weather Report/WeatherThumb2.jpg"/></a>
+	        <div class="smallcover smallboxcaption">
+	        <h2><a href="weatherreport.html">Weather Report</a></h2>
+	        <p>Typographic Experiment.</p>
+		</div>
+	     </div>
+          </div>
+
+
+          <div id="fiveblock1">
+             <div class="smallboxgrid captionfull">
+	     <a href="blackandwhite.html"> <img src="Content/Portfolio Screenshots/Black and White/Black&WhiteThumb2.jpg"/></a>
+	        <div class="smallcover smallboxcaption">
+	        <h2><a href="blackandwhite.html">Black & White</a></h2>
+	        <p>Series of photographs.</p>
+		</div>
+	     </div>
+          </div>
+
+          <div id="fiveblock2">
+             <div class="smallboxgrid captionfull">
+	     <a href="designprinciples.html"> <img src="Content/Portfolio Screenshots/Design Principles/DesignThumb2.jpg"/></a>
+	        <div class="smallcover smallboxcaption">
+	        <h2><a href="designprinciples.html">Design Principles</a></h2>
+	        <p>Flash design experiment.</p>
+		</div>
+	     </div>
+          </div>
+      <div id="heading3">
+      </div>
+
+      </div>
+
+      </div>
+
+
+      </div>
+
+</body>
+</html>
+
